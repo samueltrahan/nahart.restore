@@ -9,14 +9,16 @@ import PutterPage from './pages/PutterPage/PutterPage';
 const App = () => {
 
     return (
+        <>
+        <NavBar />
         <Switch>
-            <NavBar />
             <Route exact path='/putters' render={() =>
                 <PutterPage />
             }>
             </Route>
-            <Footer />
         </Switch>
+        <Footer />
+        </>
     )
 }
 

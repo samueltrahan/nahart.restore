@@ -35,6 +35,11 @@
     font-size: 35px;
 }
 
+.logo-link:hover {
+    color: gold;
+    transition: .6s;
+}
+
 
 .nav-links {
     text-decoration: none;
