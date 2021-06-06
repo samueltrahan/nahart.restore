@@ -28,3 +28,21 @@
     align-items: center;
     justify-content: center;
 }
+
+.logo-link {
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+}
+
+
+.nav-links {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.nav-links:hover {
+    color: gold;
+    transition: .6s;
+}
