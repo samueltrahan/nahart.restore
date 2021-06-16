@@ -1,6 +1,6 @@
 .landing-page {
     display: grid;
-    grid-template-rows: 600px 1fr;
+    grid-template-rows: 600px 150px;
     background-color: black;
 }
 
@@ -14,9 +14,16 @@
 .scotty {
     width: 60vw;
     border-radius: 10px;
+    opacity: .5;
 }
 
 .scotty:hover {
     border: none;
     transition: .5s;
+    opacity: 1.0;
+}
+
+.finish-section {
+    color: white;
+    grid-row: 2/3;
 }

@@ -8,8 +8,10 @@ export default function LandingPage() {
             <div className="high-region">
                 <img className="scotty" alt="" src={ScottyCameron}></img>
             </div>
-            <div className="finish-selection">
-                
+            <div className="finish-section">
+                <div className="finish-nav">
+                        Finish Section
+                </div>
             </div>
         </div>
     )
