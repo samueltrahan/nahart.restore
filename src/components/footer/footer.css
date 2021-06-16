@@ -1,6 +1,6 @@
 .footer-section {
-    background-color: black;
-    color: white;
+    background-color: aquamarine;
+    color: black;
     height: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -15,7 +15,7 @@
 
 .footer-link {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .footer-link:hover {

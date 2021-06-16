@@ -1,0 +1,22 @@
+.landing-page {
+    display: grid;
+    grid-template-rows: 600px 1fr;
+    background-color: black;
+}
+
+.high-region {
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scotty {
+    width: 60vw;
+    border-radius: 10px;
+}
+
+.scotty:hover {
+    border: none;
+    transition: .5s;
+}
