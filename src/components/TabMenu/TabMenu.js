@@ -1,21 +1,20 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import SwipeableViews from 'react-swipeable-views';
-import { makeStyles, useTheme } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Tabs from '@material-ui/core/Tabs';
-import Tab from '@material-ui/core/Tab';
-import Typography from '@material-ui/core/Typography';
-import Box from '@material-ui/core/Box';
-import ScottyCameronPutterFace from '../../assets/scotty-cameron-putterface.jpeg';
-import TaylorMadePutterFace from '../../assets/taylormade-putterface.jpeg';
-import PingPutterFace from '../../assets/ping-putterface.jpeg';
+import React from "react";
+import PropTypes from "prop-types";
+import SwipeableViews from "react-swipeable-views";
+import { makeStyles, useTheme } from "@material-ui/core/styles";
+import AppBar from "@material-ui/core/AppBar";
+import Tabs from "@material-ui/core/Tabs";
+import Tab from "@material-ui/core/Tab";
+import Typography from "@material-ui/core/Typography";
+import Box from "@material-ui/core/Box";
+import ScottyCameronPutterFace from "../../assets/scotty-cameron-putterface.jpeg";
+import TaylorMadePutterFace from "../../assets/taylormade-putterface.jpeg";
+import PingPutterFace from "../../assets/ping-putterface.jpeg";
 
 function TabMenu(props) {
-    const { children, value, index, ...other } = props;
+  const { children, value, index, ...other } = props;
 
-
-    return (
+  return (
     <div
       role="tabpanel"
       hidden={value !== index}
@@ -41,7 +40,7 @@ TabMenu.propTypes = {
 function a11yProps(index) {
   return {
     id: `full-width-tab-${index}`,
-    'aria-controls': `full-width-tabpanel-${index}`,
+    "aria-controls": `full-width-tabpanel-${index}`,
   };
 }
 
@@ -83,12 +82,16 @@ export default function FullWidthTabs() {
         </Tabs>
       </AppBar>
       <SwipeableViews
-        axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
+        axis={theme.direction === "rtl" ? "x-reverse" : "x"}
         index={value}
         onChangeIndex={handleChangeIndex}
       >
         <TabMenu value={value} index={0} dir={theme.direction}>
-          <img className="scotty-cameron" src={ScottyCameronPutterFace} alt=""></img>
+          <img
+            className="scotty-cameron"
+            src={ScottyCameronPutterFace}
+            alt=""
+          ></img>
         </TabMenu>
         <TabMenu value={value} index={1} dir={theme.direction}>
           <img className="taylor-made" src={TaylorMadePutterFace} alt=""></img>

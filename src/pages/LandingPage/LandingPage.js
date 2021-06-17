@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./LandingPage.css";
 import ScottyCameron from '../../assets/scotty.jpeg';
 import TabMenu from '../../components/TabMenu/TabMenu';
