@@ -1,6 +1,6 @@
 .landing-page {
     display: grid;
-    grid-template-rows: 600px 150px;
+    grid-template-rows: 600px 650px;
     background-color: black;
 }
 
@@ -26,4 +26,12 @@
 .finish-section {
     color: white;
     grid-row: 2/3;
+}
+
+.fix-your-putter {
+    color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
 }

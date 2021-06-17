@@ -1,0 +1,16 @@
+.tab-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.scotty-cameron {
+    width: 70px;
+    border-radius: 10px;
+}
+
+.taylor-made {
+    width: 300px;
+    border-radius: 10px;
+}
