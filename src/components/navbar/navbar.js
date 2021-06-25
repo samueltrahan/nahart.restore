@@ -1,13 +1,14 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import './navbar.css';
-import GolfBall from '../../assets/golf-ball-logo.png';
+import Joker from '../../assets/joker.png';
 
 export default function navbar() {
     return (
         <div className="navbar">
             <div className="logo-section">
-                <Link className="logo-link" to='/'>Nahart Golf & Customs<img className="golfball" src={GolfBall} alt=""></img></Link>
+                <img className="nahart-logo" src={Joker} alt=""></img>
+                <Link className="logo-link" to='/'>Nahart Golf & Customs</Link>
             </div>
             <div className="contact-section">
                 contact us section

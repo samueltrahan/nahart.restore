@@ -1,7 +1,7 @@
 .landing-page {
     display: grid;
     grid-template-rows: 600px 650px;
-    background-color: black;
+    background-color: rgba(44, 128, 224, 0.973);
 }
 
 .high-region {
@@ -12,7 +12,7 @@
 }
 
 .scotty {
-    width: 60vw;
+    width: 70vw;
     border-radius: 10px;
     opacity: .5;
 }
@@ -25,13 +25,32 @@
 
 .finish-section {
     color: white;
-    grid-row: 2/3;
+    /* rid-row: 2/3; */
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    margin: 20px;
 }
 
-.fix-your-putter {
-    color: aquamarine;
+
+.black-oxide {
+    grid-column: 1/2;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    background-color: rgb(207, 53, 53);
+    height: 550px;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+
+.polymer {
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(207, 53, 53);
+    height: 550px;
+    border-radius: 10px;
+    margin: 10px;
 }

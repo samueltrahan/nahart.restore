@@ -76,8 +76,8 @@ export default function FullWidthTabs() {
           variant="fullWidth"
           aria-label="full width tabs example"
         >
-          <Tab label="Scotty Cameron" {...a11yProps(0)} />
-          <Tab label="TaylorMade" {...a11yProps(1)} />
+          <Tab label="Finishing" {...a11yProps(0)} />
+          <Tab label="Deburring" {...a11yProps(1)} />
           <Tab label="Ping" {...a11yProps(2)} />
         </Tabs>
       </AppBar>

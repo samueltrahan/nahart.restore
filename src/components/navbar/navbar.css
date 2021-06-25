@@ -1,9 +1,13 @@
 .navbar {
-    background-color: aquamarine;
+    background-color: rgb(207, 53, 53);
     height: 100px;
-    color: black;
+    color: red;
     display: grid;
     grid-template-columns: 400px 1fr 1fr;
+}
+
+.nahart-logo {
+    width: 100px;
 }
 
 
@@ -13,6 +17,7 @@
     align-items: center;
     justify-content: center;
     font-size: 30px;
+    flex-direction: column;
 }
 
 .contact-section {
