@@ -7,7 +7,7 @@ export default function navbar() {
     return (
         <div className="navbar">
             <div className="logo-section">
-                <img className="nahart-logo" src={NahartGolf} alt=""></img>
+                <Link to="/"><img className="nahart-logo" src={NahartGolf} alt=""></img></Link>
             </div>
             <div className="contact-section">
                 contact us section

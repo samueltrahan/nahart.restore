@@ -3,7 +3,6 @@ import "./LandingPage.css";
 import ScottyCameron from '../../assets/scotty.jpeg';
 import FinishCard from '../../components/FinishCard/FinishCard';
 import PolymerFinish from '../../components/PolymerFinish/PolymerFinish';
-import TabMenu from '../../components/TabMenu/TabMenu';
 import Banner from '../../components/BannerSection/BannerSection';
 
 
