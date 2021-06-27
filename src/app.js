@@ -14,14 +14,20 @@ const App = () => {
         <NavBar />
         <Switch>
             <Route exact path ="/" render={() =>
-            <LandingPage />
+            <div>
+                <LandingPage />
+                <Footer />
+            </div>
             }></Route>
             <Route exact path='/putters' render={() =>
+            <div>
                 <PutterPage />
+                <Footer />
+            </div>
             }>
             </Route>
         </Switch>
-        <Footer />
+        
         </>
     )
 }

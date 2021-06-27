@@ -9,7 +9,7 @@ export default function FinishCard() {
             <div>
                 <img className="card-pic" src={BlackOxide} alt=""></img>
                 <div className="black-info">
-                <h1>Black Oxide</h1>
+                <h1>Black Oxide Finish</h1>
                 <p>- Removal of dings/dents </p>
                 <p>- Shiny black oxide or Satin black oxide</p>
                 <p>- Paint fill of your choice</p>
