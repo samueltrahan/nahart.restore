@@ -1,26 +1,26 @@
 .product-section {
-    border: solid 1px black;
-    border-radius: 10px;
-    width: 100%;
-    height: 600px;
-   display: grid;
-   grid-template-rows: 1fr 1fr;
+  border: solid 1px black;
+  border-radius: 10px;
+  width: 100%;
+  height: 595px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
 }
 
 .restore-pic {
-    height: 100%;
-    width: 100%;
-    border-radius: 10px 10px 0 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
 }
 
 .restore-pic-section {
-    grid-row: 1/2;
+  grid-row: 1/2;
 }
 
 .info-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 30px;
 }
-
