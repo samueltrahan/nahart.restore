@@ -2,35 +2,30 @@
     border: solid 1px black;
     border-radius: 10px;
     width: 100%;
-    height: 550px;
+    height: 685px;
    display: grid;
    grid-template-rows: 1fr 1fr 1fr;
 }
 
-.polymer-pic-section {
+.copper-pic-section {
     grid-row: 1/2;
 }
 
-.polymer-pic {
+.copper-pic {
     width: 100%;
-   height: 295px;
+    height: 295px;
     border-radius: 10px 10px 0 0;
 }
 
-.polymer-info {
+.copper-info {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.card-button:hover {
-    background-color: rgb(51, 105, 221);
-    transition: .6s;
+    text-align: center;
 }
 
 .button-section {
+    grid-row: 3/4;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+

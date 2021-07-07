@@ -13,7 +13,9 @@ export default function PolymerFinish() {
                 <p>- Removal of dings/dents</p>
                 <p>- Polymer finish</p>
                 <p>- Paint fill of your choice</p>
+                <div className="button-section">
                 <button className="card-button">Start Your Order</button>
+                </div>
             </div>
         </div>
     )

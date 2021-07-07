@@ -5,6 +5,7 @@ import FinishCard from '../../components/FinishCard/FinishCard';
 import PolymerFinish from '../../components/PolymerFinish/PolymerFinish';
 import Banner from '../../components/BannerSection/BannerSection';
 import RestoreFinish from '../../components/RestoreFinish/RestoreFinish';
+import CopperFinish from '../../components/CopperFinish/CopperFinish';
 
 export default function LandingPage() {
 
@@ -24,6 +25,9 @@ export default function LandingPage() {
         </div>
         <div className="polymer">
           <PolymerFinish />
+        </div>
+        <div className="copper">
+          <CopperFinish />
         </div>
       </div>
     </div>
