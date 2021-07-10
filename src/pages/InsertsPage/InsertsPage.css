@@ -1,6 +1,6 @@
 .insert-page {
     display: grid;
-    grid-template-rows: 200px 1200px;
+    grid-template-rows: 200px 1550px;
     background-color: rgba(44, 128, 224, 0.973);
     font-family: 'Black Ops One', cursive;
 }
