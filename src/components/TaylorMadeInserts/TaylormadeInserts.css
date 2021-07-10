@@ -1,0 +1,25 @@
+.taylormade-section {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.tm-header {
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tm-inserts-pic {
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tm-pic {
+    width: 150px;
+    margin: 5px;
+}

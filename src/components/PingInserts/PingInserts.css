@@ -1,11 +1,24 @@
 .ping-section {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.ping-header {
+    grid-row: 1/2;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: wrap;
-    width: 100%;
+}
+
+.ping-insert-pic {
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .ping-pic {
     width: 150px;
+    margin: 5px;
 }
