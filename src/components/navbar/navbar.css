@@ -1,34 +1,27 @@
 .navbar {
     background-color: rgb(207, 53, 53);
-    height: 100px;
+    height: 120px;
     color: red;
     display: grid;
     grid-template-columns: 400px 1fr 1fr;
 }
 
 .nahart-logo {
-    width: 150px;
+    width: 170px;
 }
 
 
 .logo-section {
     grid-column: 1/2;
-    font-size: 30px;
- 
 }
 
-.contact-section {
-    grid-column: 2/3;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .links-section {
     grid-column: 3/4;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
 }
 
 .logo-link {
@@ -46,8 +39,9 @@
 .nav-links {
     text-decoration: none;
     color: black;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Black Ops One', cursive;
+    margin: 15px;
 }
 
 .nav-links:hover {
@@ -55,9 +49,3 @@
     transition: .6s;
 }
 
-.golfball {
-    width: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}

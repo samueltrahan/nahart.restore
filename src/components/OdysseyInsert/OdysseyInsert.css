@@ -1,0 +1,26 @@
+.odyssey-section {
+ display: grid;
+ grid-template-rows: 100px 1fr;
+}
+
+.odyssey-header {
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.odyssey-insert-pic {
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.odyssey-pic {
+    width: 150px;
+    margin: 5px;
+}

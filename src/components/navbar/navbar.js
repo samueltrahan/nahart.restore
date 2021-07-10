@@ -9,11 +9,9 @@ export default function navbar() {
             <div className="logo-section">
                 <Link to="/"><img className="nahart-logo" src={NahartGolf} alt=""></img></Link>
             </div>
-            <div className="contact-section">
-                contact us section
-            </div>
             <div className="links-section">
                 <Link className="nav-links" to='/putters'>Putters</Link>&nbsp;
+                <Link className="nav-links" to='/inserts'>Putter Inserts</Link>
             </div>
         </div>
     )

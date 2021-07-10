@@ -1,0 +1,25 @@
+.insert-page {
+    display: grid;
+    grid-template-rows: 300px 800px;
+}
+
+.insert-header {
+    grid-row: 1/2;
+}
+
+.putter-inserts {
+    grid-row: 2/3;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.odyssey-inserts {
+    grid-row: 1/2;
+}
+
+.ping-inserts {
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
