@@ -3,6 +3,7 @@
     grid-template-rows: 700px 1fr;
     grid-template-columns: 50 1fr;
     background-color: rgba(44, 128, 224, 0.973);
+    width: 158%;
 }
 
 .high-region {
@@ -16,7 +17,7 @@
 }
 
 .scotty {
-    width: 70vw;
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -25,9 +26,12 @@
 .finish-section {
     grid-row: 2/3;
     color: white;
-    display: grid;
-    grid-template-columns: 50% 1fr;
-    grid-template-rows: 1fr 1fr;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 500vh;
     margin: 20px;
 }
 
@@ -41,7 +45,6 @@
     background-color: rgb(207, 53, 53);
   
     border-radius: 10px;
-    margin: 10px;
     
 }
 

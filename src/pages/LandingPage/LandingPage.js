@@ -17,18 +17,10 @@ export default function LandingPage() {
         <img className="scotty" alt="" src={ScottyCameron}></img>
       </div>
       <div className="finish-section">
-        <div className="restore">
-          <RestoreFinish />
-        </div>
-            <div className="black-oxide">
+          <RestoreFinish />            
             <FinishCard />
-        </div>
-        <div className="polymer">
           <PolymerFinish />
-        </div>
-        <div className="copper">
           <CopperFinish />
-        </div>
       </div>
     </div>
   );
