@@ -4,7 +4,7 @@ import Restore from '../../assets/restore-finish.webp';
 
 export default function RestoreFinish() {
     return (
-        <div className="product-section">
+        <div className="restore-section">
             <div className="restore-pic-section">
             <img className="restore-pic" src={Restore} alt=""></img>
             </div>
