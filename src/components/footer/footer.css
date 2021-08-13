@@ -4,7 +4,7 @@
     height: 100px;
     width: 158%;
     display: grid;
-    grid-template-columns: 1fr  1fr;
+    grid-template-columns: 350px  1fr;
 }
 
 .copy-right {
