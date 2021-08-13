@@ -11,10 +11,11 @@
 
 .card-pic {
     width: 300px;
+    margin-left: 40px;
 }
 
 .card-button {
-    width: 200px;
+    width: 270px;
     height: 60px;
     background-color: rgba(44, 128, 224, 0.973);
     border: solid 1px black;
@@ -35,4 +36,5 @@
     align-items: center;
     flex-direction: column;
     padding: 20px;
+    font-size: 20px;
 }

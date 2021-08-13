@@ -8,6 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 25px;
 }
 
 
@@ -21,6 +22,6 @@
 
 
 .odyssey-pic {
-    width: 180px;
+    width: 280px;
     margin: 5px;
 }
