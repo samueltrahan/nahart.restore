@@ -1,6 +1,7 @@
 import React from 'react';
 import './PolymerFinish.css';
 import PolymerFinishPic from '../../assets/polymer-finish.webp';
+import {Link} from 'react-router-dom';
 
 export default function PolymerFinish() {
     return (
@@ -14,7 +15,7 @@ export default function PolymerFinish() {
                 <p>- Polymer finish</p>
                 <p>- Paint fill of your choice</p>
                 <div className="button-section">
-                <button className="card-button">Start Your Order</button>
+                <Link className="card-button">Start Your Order</Link>
                 </div>
             </div>
         </div>

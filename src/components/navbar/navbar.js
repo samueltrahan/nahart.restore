@@ -12,6 +12,7 @@ export default function navbar() {
             <div className="links-section">
                 <Link className="nav-links" to='/putters'>Putters</Link>&nbsp;
                 <Link className="nav-links" to='/inserts'>Putter Inserts</Link>
+                <Link className="nav-links" to='/contact'>Contact Us</Link>
             </div>
         </div>
     )

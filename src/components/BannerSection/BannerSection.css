@@ -1,4 +1,11 @@
 .nahart-golf-heading {
-    font-size: 47px;
-    font-family: 'Black Ops One', cursive;
+  font-size: 60px;
+  font-family: "Black Ops One", cursive;
+}
+
+
+.nahart-golf-sub {
+  font-family: "Black Ops One", cursive;
+  text-align: center;
+  font-size: 35px;
 }

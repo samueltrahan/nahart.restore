@@ -6,6 +6,7 @@ import Footer from './components/footer/footer';
 import LandingPage from './pages/LandingPage/LandingPage';
 import PutterPage from './pages/PutterPage/PutterPage';
 import InsertsPage from './pages/InsertsPage/InsertsPage';
+import ContactPage from './pages/ContactPage/Contact';
 
 const App = () => {
 
@@ -31,6 +32,13 @@ const App = () => {
                 <InsertsPage />
                 <Footer />
             </div>
+            }>
+            </Route>
+            <Route exact path="/contact" render={() => 
+                <div>
+                    <ContactPage />
+                    <Footer />
+                </div>
             }>
             </Route>
         </Switch>

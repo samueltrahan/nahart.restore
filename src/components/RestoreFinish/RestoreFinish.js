@@ -1,6 +1,7 @@
 import React from 'react';
 import './RestoreFinish.css';
 import Restore from '../../assets/restore-finish.webp';
+import {Link} from 'react-router-dom';
 
 export default function RestoreFinish() {
     return (
@@ -14,7 +15,7 @@ export default function RestoreFinish() {
                 <p>- Removal of dings/dents</p>
                 <p>- Polymer finish</p>
                 <p>- Paint fill of your choice</p>
-                <button className="card-button">Start Your Order</button>
+                <Link to="/contact" className="card-button">Start Your Order</Link>
             </div>
         </div>
     )

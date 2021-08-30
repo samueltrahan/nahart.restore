@@ -1,6 +1,7 @@
 import React from 'react';
 import './CopperFinish.css';
 import Copper from '../../assets/copper-finish.png';
+import {Link} from 'react-router-dom';
 
 export default function CopperFinish() {
     return (
@@ -15,7 +16,7 @@ export default function CopperFinish() {
                 <p> - High buff shine OR brushed satin finish</p>
                 <p> - Paint fill of your choice</p>
                 <div className="button-section">
-                <button className="card-button">Start Your Order</button>
+                <Link className="card-button">Start Your Order</Link>
                 </div>
             </div>
         </div>
