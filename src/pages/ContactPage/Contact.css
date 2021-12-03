@@ -1,120 +1,118 @@
 .contact-page {
-    display: grid;
-    grid-template-rows: 100px 140px 490px 260px 80px;
-    grid-template-columns: 50 1fr;
-    background-color: rgba(44, 128, 224, 0.973);
-    width: 158%;
+  display: grid;
+  grid-template-rows: 100px 140px 490px 260px 80px;
+  grid-template-columns: 50 1fr;
+  background-color: rgba(44, 128, 224, 0.973);
+  width: 158%;
 }
 
 .contact-header {
-    text-align: center;
-    font-size: 50px;
-    font-family: "Black Ops One", cursive;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Black Ops One", cursive;
 }
 
 .msg-section {
-    grid-row: 2/3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    font-size: 25px;
+  grid-row: 2/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  font-size: 25px;
 }
 
-
-
 .email-section {
-    grid-row: 3/4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  grid-row: 3/4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .text-area {
-    width: 90%;
-    height: 200px;
+  width: 90%;
+  height: 200px;
 }
 
 .vendor-section {
-    grid-row: 4/5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    /* display: grid;
+  grid-row: 4/5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* display: grid;
     grid-template-columns: 1fr 1fr; */
-    font-family: "Black Ops One", cursive;
+  font-family: "Black Ops One", cursive;
 }
 
 .company-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .first-companies {
-    grid-column: 1/2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  grid-column: 1/2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .second-companies {
-    grid-column: 2/3;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column
+  grid-column: 2/3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .vendor-link {
-    text-decoration: none;
-    font-size: 25px;
-    color: black;
-    font-family: "Black Ops One", cursive;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  font-family: "Black Ops One", cursive;
 }
 
 .vendor {
-    font-family: "Black Ops One", cursive;
-    font-size: 40px;
-    text-align: center;
+  font-family: "Black Ops One", cursive;
+  font-size: 40px;
+  text-align: center;
 }
 
 .vendor-link:hover {
-    color: gold;
-    transition: .5s
+  color: gold;
+  transition: 0.5s;
 }
 
 .email {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .contact-btn {
-    width: 270px;
-    height: 60px;
-    background-color:rgb(207, 53, 53);
-    border: solid 1px black;
-    border-radius: 5px;
-    color: white;
-    text-shadow: 2px 2px 2px black;
-    font-size: 30px;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 270px;
+  height: 60px;
+  background-color: rgb(207, 53, 53);
+  border: solid 1px black;
+  border-radius: 5px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  font-size: 30px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-btn:hover {
-    background-color: rgb(165, 39, 39);
-    transition: .6s;
+  background-color: rgb(165, 39, 39);
+  transition: 0.6s;
 }
 
 .email-msg {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .email-input {
-    width: 90%;
-    height: 30px;
+  width: 90%;
+  height: 30px;
 }
