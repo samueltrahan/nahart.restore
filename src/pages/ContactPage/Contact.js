@@ -9,7 +9,8 @@ export default function Contact() {
                     <h4>If you want to enquire about getting a putter restored.<br />  
                     Please send and email, and we will get back to you in a timely manner. -NGC</h4>
                 </div>
-                <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" netlify className="email-section" hidden>
+                <form name="contact" method="POST" netlify className="email-section" >
+                    <input type="hidden" name="form-name" value="contact"></input>
                     <h3 className="email">Email</h3>
                     <input  name="contact" className="email-input"></input>
                     <h3 className="email-msg">Message</h3>
@@ -35,6 +36,9 @@ export default function Contact() {
 
                     </div>
                 </div>
+
+                
             </div>
+           
     )
 }
