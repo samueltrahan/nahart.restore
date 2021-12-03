@@ -12,10 +12,12 @@ export default function Contact() {
                 <form name="contact" method="POST" netlify className="email-section" >
                     <input type="hidden" name="form-name" value="contact"></input>
                     <h3 className="email">Email</h3>
-                    <input  name="contact" className="email-input"></input>
+                    <input type="email" name="contact" className="email-input" required></input>
                     <h3 className="email-msg">Message</h3>
-                    <textarea name="message" className="text-area"></textarea>
-                    <button type="submit" className="contact-btn">Send</button>
+                    <textarea name="message" className="text-area" required></textarea>
+                    <p>
+                    <input type="submit" className="contact-btn" value="Send"></input>
+                    </p>
                 </form>
                 <div className="vendor-secton">
                     <hr></hr>
