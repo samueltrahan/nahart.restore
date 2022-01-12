@@ -10,11 +10,9 @@ export default function RestoreFinish() {
             <img className="restore-pic" src={Restore} alt=""></img>
             </div>
             <div className="info-section">
-            <h1>Restore Finish</h1>
+            <h1>Putter Restoration</h1>
                 <p>Restore your putter back to it's original condition</p>
                 <p>- Removal of dings/dents</p>
-                <p>- Polymer finish</p>
-                <p>- Paint fill of your choice</p>
                 <Link to="/contact" className="card-button">Start Your Order</Link>
             </div>
         </div>

@@ -1,0 +1,16 @@
+.putter-page {
+    display: grid;
+    grid-template-rows: 200px 1550px;
+    background-color: rgba(44, 128, 224, 0.973);
+    font-family: 'Black Ops One', cursive;
+    width: 158%;
+    height: 2800px;
+}
+
+.header {
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}

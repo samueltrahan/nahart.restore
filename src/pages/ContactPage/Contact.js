@@ -9,14 +9,14 @@ export default function Contact() {
                     <h4>If you want to enquire about getting a putter restored.<br />  
                     Please send and email, and we will get back to you in a timely manner. -NGC</h4>
                 </div>
-                <form name="contact" method="POST" netlify className="email-section" >
+                <form name="contact" method="POST" data-netlify="true" className="email-section" action="/contact" >
                     <input type="hidden" name="form-name" value="contact"></input>
                     <h3 className="email">Email</h3>
-                    <input type="email" name="contact" className="email-input" required></input>
+                    <input type="email" name="contact" id="email" className="email-input" required></input>
                     <h3 className="email-msg">Message</h3>
-                    <textarea name="message" className="text-area" required></textarea>
+                    <textarea name="message" id="message" className="text-area" required></textarea>
                     <p>
-                    <input type="submit" className="contact-btn" value="Send"></input>
+                    <input type="submit" className="contact-btn" value="Send" action="/"></input>
                     </p>
                 </form>
                 <div className="vendor-secton">
