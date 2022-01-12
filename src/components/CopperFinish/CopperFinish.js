@@ -10,14 +10,10 @@ export default function CopperFinish() {
             <img className="copper-pic" src={Copper} alt=""></img>
             </div>
             <div className="info-section">
-                <h1>Copper Finish</h1>
-                <p className="copper-info">Add some shine to your putter with this extremely durable copper plated finish. This finish is great for carbon steel putters to help prevent rusting!</p>
-                <p> - Removal of dings/dents</p>
-                <p> - High buff shine OR brushed satin finish</p>
-                <p> - Paint fill of your choice</p>
-                <div className="button-section">
-                <Link className="card-button">Start Your Order</Link>
-                </div>
+                <h1>Regrip Putters</h1>
+                <p> - Remove old, dirty putter grips</p>
+                <p> - All name brand putter grips available</p>
+                
             </div>
         </div>
     )

@@ -10,11 +10,9 @@ export default function FinishCard() {
             <div>
                 <img className="card-pic" src={BlackOxide} alt=""></img>
                 <div className="black-info">
-                <h1>Black Oxide Finish</h1>
-                <p>- Removal of dings/dents </p>
-                <p>- Shiny black oxide or Satin black oxide</p>
-                <p>- Paint fill of your choice</p>
-                <Link to='/contact' className="card-button">Start Your Order</Link>
+                <h1>Customize Your Putter</h1>
+                <p>- Repaint or Powder-coat your putter </p>
+                <p>- All colors available </p>
                 </div>
             </div>
            

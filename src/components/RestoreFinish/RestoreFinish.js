@@ -13,7 +13,6 @@ export default function RestoreFinish() {
             <h1>Putter Restoration</h1>
                 <p>Restore your putter back to it's original condition</p>
                 <p>- Removal of dings/dents</p>
-                <Link to="/contact" className="card-button">Start Your Order</Link>
             </div>
         </div>
     )

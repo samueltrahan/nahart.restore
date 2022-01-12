@@ -10,13 +10,10 @@ export default function PolymerFinish() {
                 <img className="polymer-pic" src={PolymerFinishPic} alt=""></img>
             </div>
             <div className="polymer-info">
-                <h1>Polymer Finish</h1>
-                <p>- Removal of dings/dents</p>
-                <p>- Polymer finish</p>
-                <p>- Paint fill of your choice</p>
-                <div className="button-section">
-                <Link className="card-button">Start Your Order</Link>
-                </div>
+                <h1>Putter Finishes</h1>
+                <p>- Black Oxide Finish</p>
+                <p>- Polymer Finish</p>
+                <p>- Copper Finish</p>
             </div>
         </div>
     )
