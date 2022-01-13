@@ -12,11 +12,11 @@
     grid-row: 1/2;
 }
 
-.copper-pic {
-    width: 375px;
-    height: 280px;
+.grip-pic {
+    width: 525px;
+    height: 410px;
     border-radius: 10px 10px 0 0;
-    margin-left: 95px;
+    
 }
 
 .copper-info {

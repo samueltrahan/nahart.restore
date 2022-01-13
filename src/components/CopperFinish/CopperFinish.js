@@ -1,13 +1,13 @@
 import React from 'react';
 import './CopperFinish.css';
-import Copper from '../../assets/copper-finish.png';
-import {Link} from 'react-router-dom';
+import Grip from '../../assets/regrip.JPG';
+
 
 export default function CopperFinish() {
     return (
         <div className="product-section">
             <div className="copper-pic-section">
-            <img className="copper-pic" src={Copper} alt=""></img>
+            <img className="grip-pic" src={Grip} alt=""></img>
             </div>
             <div className="info-section">
                 <h1>Regrip Putters</h1>

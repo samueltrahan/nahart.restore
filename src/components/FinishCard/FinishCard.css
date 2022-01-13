@@ -10,8 +10,8 @@
 }
 
 .card-pic {
-    width: 300px;
-    margin-left: 40px;
+   width: 525px;
+   height: 405px;
 }
 
 .card-button {
@@ -39,6 +39,10 @@
     justify-content:center;
     align-items: center;
     flex-direction: column;
-    padding: 20px;
+    font-size: 20px;
+}
+
+.b-info {
     font-size: 25px;
+    text-align: center;
 }

@@ -11,8 +11,10 @@ export default function RestoreFinish() {
             </div>
             <div className="info-section">
             <h1>Putter Restoration</h1>
+            <div className="PR-info">
                 <p>Restore your putter back to it's original condition</p>
                 <p>- Removal of dings/dents</p>
+            </div>
             </div>
         </div>
     )
