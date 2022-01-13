@@ -80,3 +80,21 @@
     border-radius: 10px;
     margin: 10px;
 }
+
+
+@media only screen and (min-width: 1024px) {
+
+    .landing-page {
+        display: grid;
+        grid-template-rows: 1500px 1fr;
+        grid-template-columns: 50 1fr;
+        background-color: rgba(44, 128, 224, 0.973);
+        width: 176%;
+    }
+
+    .scotty {
+        width: 83%;
+        border-radius: 10px;
+    }
+
+}

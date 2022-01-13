@@ -4,3 +4,7 @@ body {
    height: 100vh;
    font-family: "Black Ops One", cursive;
 }
+
+@media only screen and (min-width: 1024px) {
+    
+}

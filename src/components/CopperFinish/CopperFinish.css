@@ -31,3 +31,21 @@
     align-items: center;
 }
 
+@media only screen and (min-width: 1024px) {
+    .product-section {
+        border: solid 1px black;
+        border-radius: 10px;
+        width: 55%;
+        height: 850px;
+       display: grid;
+       grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .grip-pic {
+        width: 655px;
+        height: 550px;
+        border-radius: 10px 10px 0 0;
+        
+    }
+}
+
