@@ -86,10 +86,10 @@
 
     .landing-page {
         display: grid;
-        grid-template-rows: 1500px 1fr;
+        grid-template-rows: 1800px 1fr;
         grid-template-columns: 50 1fr;
         background-color: rgba(44, 128, 224, 0.973);
-        width: 176%;
+        width: 210%;
     }
 
     .scotty {

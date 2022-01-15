@@ -55,7 +55,7 @@
     .navbar {
         background-color: rgb(207, 53, 53);
         height: 195px;
-        width: 176vw;
+        width: 210vw;
         color: red;
         display: grid;
         grid-template-columns: 1fr 1fr 700px;
