@@ -1,7 +1,7 @@
 import React from 'react';
 import './PolymerFinish.css';
 import PolymerFinishPic from '../../assets/polymer-finish.webp';
-import {Link} from 'react-router-dom';
+
 
 export default function PolymerFinish() {
     return (

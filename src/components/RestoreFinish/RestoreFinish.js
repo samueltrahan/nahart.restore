@@ -1,7 +1,7 @@
 import React from 'react';
 import './RestoreFinish.css';
 import Restore from '../../assets/restore-finish.webp';
-import {Link} from 'react-router-dom';
+
 
 export default function RestoreFinish() {
     return (
