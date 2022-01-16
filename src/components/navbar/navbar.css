@@ -54,7 +54,7 @@
 @media only screen and (min-width: 1024px) {
     .navbar {
         background-color: rgb(207, 53, 53);
-        height: 195px;
+        height: 215px;
         width: 210vw;
         color: red;
         display: grid;

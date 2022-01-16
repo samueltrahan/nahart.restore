@@ -40,17 +40,18 @@
     .footer-section {
         background-color: rgb(207, 53, 53);
         color: black;
-        height: 150px;
+        height: 230px;
         width: 210%;
         display: grid;
-        grid-template-columns: 650px  1500px;
+        grid-template-columns: 1050px  700px 1fr;
     }
 
     .social-links {
         font-size: 35px;
+        grid-column: 3/4;
     }
 
     .copy-right {
-        font-size: 35px;
+        font-size: 55px;
     }
 }

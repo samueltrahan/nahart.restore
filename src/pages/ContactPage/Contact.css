@@ -116,3 +116,41 @@
   width: 90%;
   height: 30px;
 }
+
+@media only screen and (min-width: 1024px)  {
+  .contact-page {
+    display: grid;
+    grid-template-rows: 300px 340px 990px 590px 200px;
+    grid-template-columns: 50 1fr;
+    background-color: rgba(44, 128, 224, 0.973);
+    width: 210%;
+  }
+  .contact-header {
+    text-align: center;
+    font-size: 90px;
+    font-family: "Black Ops One", cursive;
+  }
+
+  .msg-section {
+    text-align: center;
+    font-size: 55px;
+  }
+
+  .vendor {
+    font-size: 70px;
+  }
+
+  .vendor-link {
+    font-size: 60px;
+  }
+
+  .email-input {
+    width: 90%;
+    height: 70px;
+  }
+
+  .text-area {
+    height: 500px;
+  }
+  
+}
