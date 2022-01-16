@@ -125,6 +125,10 @@
     background-color: rgba(44, 128, 224, 0.973);
     
   }
+  .msg-section {
+    text-align: center;
+    font-size: 35px;
+  }
 
   .vendor-link {
     font-size: 40px;

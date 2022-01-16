@@ -93,6 +93,10 @@
         width: 90%;
         border-radius: 10px;
     }
+
+    .finish-section {
+        margin-bottom: 10px;
+    }
 }
 
 
@@ -110,5 +114,6 @@
         width: 83%;
         border-radius: 10px;
     }
+
 
 }
