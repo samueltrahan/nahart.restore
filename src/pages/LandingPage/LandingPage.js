@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 import "./LandingPage.css";
 import ScottyCameron from '../../assets/newport-putter.jpeg';
 import FinishCard from '../../components/FinishCard/FinishCard';
