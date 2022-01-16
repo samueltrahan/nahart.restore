@@ -117,6 +117,20 @@
   height: 30px;
 }
 
+@media only screen and (min-width: 529px) {
+  .contact-page {
+    display: grid;
+    grid-template-rows: 100px 240px 590px 390px 150px;
+    grid-template-columns: 50 1fr;
+    background-color: rgba(44, 128, 224, 0.973);
+    
+  }
+
+  .vendor-link {
+    font-size: 40px;
+  }
+}
+
 @media only screen and (min-width: 1024px)  {
   .contact-page {
     display: grid;
@@ -151,6 +165,21 @@
 
   .text-area {
     height: 500px;
+  }
+
+  .contact-btn {
+    width: 470px;
+    height: 100px;
+    background-color: rgb(207, 53, 53);
+    border: solid 1px black;
+    border-radius: 5px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 50px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
 }
