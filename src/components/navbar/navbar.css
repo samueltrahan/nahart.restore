@@ -4,11 +4,11 @@
     width: 100%;
     color: red;
     display: grid;
-    grid-template-columns: 1fr  ;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .nahart-logo {
-    width: 120px;
+    width: 170px;
 }
 
 
@@ -19,7 +19,7 @@
 
 
 .links-section {
-    grid-column: 2/3;
+    grid-column: 3/4;
     display: flex;
     align-items: center;
     justify-content: start;
@@ -40,7 +40,7 @@
 .nav-links {
     text-decoration: none;
     color: black;
-    font-size: 12px;
+    font-size: 20px;
     font-family: 'Black Ops One', cursive;
     margin: 15px;
 }
