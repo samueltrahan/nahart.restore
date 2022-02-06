@@ -1,14 +1,15 @@
 .contact-page {
   display: grid;
-  grid-template-rows: 100px 140px 490px 260px 80px;
+  grid-template-rows: 150px 340px 690px 460px 200px;
   grid-template-columns: 50 1fr;
   background-color: rgba(44, 128, 224, 0.973);
-  width: 158%;
+  width: 100%;
+  height: 207vh;
 }
 
 .contact-header {
   text-align: center;
-  font-size: 50px;
+  font-size: 60px;
   font-family: "Black Ops One", cursive;
 }
 
@@ -18,7 +19,7 @@
   justify-content: center;
   align-items: center;
   margin: 10px;
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .email-section {
@@ -68,14 +69,14 @@
 
 .vendor-link {
   text-decoration: none;
-  font-size: 25px;
+  font-size: 30px;
   color: black;
   font-family: "Black Ops One", cursive;
 }
 
 .vendor {
   font-family: "Black Ops One", cursive;
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
 }
 

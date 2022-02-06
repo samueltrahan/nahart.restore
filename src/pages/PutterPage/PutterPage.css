@@ -1,6 +1,6 @@
 .putter-page {
     display: grid;
-    grid-template-rows: 200px 1550px;
+    grid-template-rows: 1fr 1fr;
     background-color: rgba(44, 128, 224, 0.973);
     font-family: 'Black Ops One', cursive;
     width: 158%;
