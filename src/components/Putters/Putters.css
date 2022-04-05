@@ -1,0 +1,29 @@
+.putters {
+    text-align: center;
+}
+
+.putter-pics {
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.putt-pic {
+    width: 85%;
+    margin-bottom: 20px;
+}
+
+.before-putters {
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.before-putt {
+    width: 85%;
+    margin-bottom: 20px;
+}
