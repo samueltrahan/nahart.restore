@@ -59,3 +59,34 @@
         background-color: rgb(207, 53, 53);
     }
 }
+
+@media only screen and (min-width: 1215px) {
+    .product-section {
+        border: solid 1px black;
+        border-radius: 10px;
+        width: 65%;
+        height: 2025px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(207, 53, 53);
+    }
+    .card-pic {
+        width: 1900px;
+        height: 1400px
+     }
+
+    .black-info {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 55px;
+    }
+    
+
+    .b-info {
+        font-size: 55px;
+        text-align: center;
+    }
+}

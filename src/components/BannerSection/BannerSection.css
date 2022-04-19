@@ -22,3 +22,24 @@
     font-size: 55px;
   }
 }
+
+
+@media only screen and (min-width: 1215px) {
+  .landing-page {
+      display: grid;
+      grid-template-rows: 2700px 1fr;
+      grid-template-columns: 50 1fr;
+      background-color: rgba(44, 128, 224, 0.973);
+      width: 210%;
+  }
+  .nahart-golf-heading {
+    font-size: 255px;
+    font-family: "Black Ops One", cursive;
+  }
+
+  .nahart-golf-sub {
+    font-family: "Black Ops One", cursive;
+    text-align: center;
+    font-size: 105px;
+  }
+}

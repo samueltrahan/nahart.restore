@@ -56,3 +56,23 @@
         font-size: 55px;
     }
 }
+
+@media only screen and (min-width: 1215px) {
+    .footer-section {
+        background-color: rgb(207, 53, 53);
+        color: black;
+        height: 330px;
+        width: 231%;
+        display: grid;
+        grid-template-columns: 1350px  1fr 4000px;
+    }
+
+    .social-links {
+        font-size: 45px;
+        grid-column: 2/3;
+    }
+
+    .copy-right {
+        font-size: 55px;
+    }
+  }

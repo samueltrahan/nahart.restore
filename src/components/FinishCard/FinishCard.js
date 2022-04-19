@@ -1,6 +1,6 @@
 import React from 'react';
 import './FinishCard.css';
-import Customize from '../../assets/Customize3.png';
+import Customize from '../../assets/putters/Customize3.png';
 
 
 export default function FinishCard() {

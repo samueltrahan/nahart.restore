@@ -1,13 +1,13 @@
 import React from 'react';
 import './RestoreFinish.css';
-import Restore from '../../assets/restore-finish.webp';
+// import Restore from '../../assets/restore-finish.webp';
 
 
 export default function RestoreFinish() {
     return (
         <div className="restore-section">
             <div className="restore-pic-section">
-            <img className="restore-pic" src={Restore} alt=""></img>
+            {/* <img className="restore-pic" src={Restore} alt=""></img> */}
             </div>
             <div className="info-section">
             <h1>Putter Restoration</h1>
